@@ -1,0 +1,50 @@
+name: chakra_loyalty
+description: TON-Powered Loyalty Platform
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.1.1  # Updated to latest
+  shared_preferences: ^2.2.2
+  google_fonts: ^4.0.4
+  lottie: ^2.7.0    # Updated to latest
+  smooth_page_indicator: ^1.1.0  # Updated to latest
+  flutter_animate: ^4.1.1
+  mobile_scanner: ^3.5.7  # Compatible channel
+  http: ^1.1.0
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.0
+  url_launcher: ^6.2.2    # Updated to latest
+  geolocator: ^11.0.1    # Updated to latest
+    # For better state management (optional)
+  flutter_riverpod: ^2.4.9
+  
+  # For HTTP caching and better API handling
+  dio: ^5.3.2
+  
+  # For image caching
+  cached_network_image: ^3.3.0
+  
+  # For local notifications
+  flutter_local_notifications: ^18.0.1
+  
+  # For QR code generation
+  qr_flutter: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/animations/
